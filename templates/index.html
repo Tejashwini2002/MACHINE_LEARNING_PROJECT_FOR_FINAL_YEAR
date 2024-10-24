@@ -1,0 +1,70 @@
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital System - Upload Files</title>
+</head>
+<body>
+    <h1>Upload Hospital Records (Files)</h1>
+    <form method="post" enctype="multipart/form-data" action="/upload">
+        <input type="file" name="file" required>
+        <input type="submit" value="Upload File">
+    </form>
+    <div id="result"></div>
+</body>
+</html>
+-->
+
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital System - Upload & Search Records</title>
+</head>
+<body>
+    <h1>Upload Hospital Records (Files)</h1>
+    <form method="post" enctype="multipart/form-data" action="/upload">
+        <input type="file" name="file" required>
+        <input type="submit" value="Upload File">
+    </form>
+
+    <h2>Search Hospital Records by Disease</h2>
+    <form method="post" action="/search">
+        <input type="text" name="keyword" placeholder="Enter disease or keyword" required>
+        <input type="submit" value="Search Records">
+    </form>
+
+    <div id="result"></div>
+</body>
+</html>
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital System - Upload & Search Records</title>
+</head>
+<body>
+    <h1>Upload Hospital Records (Files)</h1>
+    <p>Supported file formats: PDF (.pdf), Word (.docx), Excel (.xls, .xlsx), CSV (.csv), Image (.jpg, .jpeg, .png), ZIP (.zip)</p>
+    <form method="post" enctype="multipart/form-data" action="/upload">
+        <input type="file" name="file" required>
+        <input type="submit" value="Upload File">
+    </form>
+
+    <h2>Search Hospital Records by Disease</h2>
+    <form method="post" action="/search">
+        <input type="text" name="keyword" placeholder="Enter disease or keyword" required>
+        <input type="submit" value="Search Records">
+    </form>
+
+    <div id="result"></div>
+</body>
+</html>
+
+
